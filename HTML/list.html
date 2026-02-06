@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+</head>
+<body>
+    <p><b>There are total 3 types of list. Namely, Ordered, Unordered and Definition List.</b></p>
+    <hr />
+    <h4>UnOrdered List (List of Animes)</h4>
+    <!-- ul: Unordered List -->
+    <!-- "type" attribute: disc, circle, square, none -->
+    <ul type="none">
+        <!-- li: List Items -->
+        <li>One Piece</li>
+        <li>Attack of Titan</li>
+        <li>Bleach</li>
+        <li>Dragon Ball Z</li>
+        <li>Naruto</li>
+    </ul>
+
+    <h4>Ordered List (Subjects)</h4>
+    <!-- ol: Ordered List -->
+    <!-- "reversed" attribute is used to reverse the numbering-->
+    <!-- "start" attribute is used to start with other number let's say 100 -->
+    <!-- "type" attritube is used to change the numbering abbreviation. eg, 1, A, a, I, i(roman numbers) -->
+    <ol reversed="ture" start="10" type="A">    
+        <li>Mathematics</li>
+        <ol>
+            <li>Algebra</li>
+            <li>Calculus</li>
+            <li>Trigonometry</li>
+        </ol>
+        <li>Operating Systems</li>
+        <li>Data Structures and Algorithms</li>
+        <ul type="square">
+            <li>Linked Lists</li>
+            <li>Binary Tree</li>
+            <li>Dynamic Programming</li>
+        </ul>
+        <li>Machine Learning</li>
+        <li>Computer Networks</li>
+    </ol>
+
+    <h4>Definition List</h4>
+    <!-- dl: Definition List -->
+    <dl>
+        <!-- dt: definition term and dd: definition description -->
+        <dt>HTML:</dt>
+        <dd>Hyper Text Markup Language</dd>
+
+        <dt>CSS:</dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+
+
+</body>
+</html>
