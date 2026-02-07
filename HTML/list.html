@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Lists</title>
 </head>
+
 <body>
-    <p><b>There are total 3 types of list. Namely, Ordered, Unordered and Definition List.</b></p>
-    <hr />
+    <p><b>There are total 3 types of list: Ordered, Unordered and Definition List.</b></p>
+    <hr /> <!------------------------------------------------------------------------->
     <h4>UnOrdered List (List of Animes)</h4>
     <!-- ul: Unordered List -->
     <!-- "type" attribute: disc, circle, square, none -->
@@ -19,13 +21,14 @@
         <li>Dragon Ball Z</li>
         <li>Naruto</li>
     </ul>
+    <hr> <!------------------------------------------------------------------------->
 
     <h4>Ordered List (Subjects)</h4>
     <!-- ol: Ordered List -->
     <!-- "reversed" attribute is used to reverse the numbering-->
     <!-- "start" attribute is used to start with other number let's say 100 -->
     <!-- "type" attritube is used to change the numbering abbreviation. eg, 1, A, a, I, i(roman numbers) -->
-    <ol reversed="ture" start="10" type="A">    
+    <ol reversed="ture" start="10" type="A">
         <li>Mathematics</li>
         <ol>
             <li>Algebra</li>
@@ -42,6 +45,7 @@
         <li>Machine Learning</li>
         <li>Computer Networks</li>
     </ol>
+    <hr> <!------------------------------------------------------------------------->
 
     <h4>Definition List</h4>
     <!-- dl: Definition List -->
@@ -53,6 +57,155 @@
         <dt>CSS:</dt>
         <dd>Cascading Style Sheet</dd>
     </dl>
+    <hr> <!------------------------------------------------------------------------->
+
+    <!-- More Nested List Examples: -->
+    <h3>Country List</h3>
+    <ul>
+        <li>India
+            <ul>
+                <li>Delhi
+                    <ol>
+                        <li>Dwarka</li>
+                        <li>Vikaspuri</li>
+                        <li>Connaught Place</li>
+                    </ol>
+                </li>
+                <li>Mumbai</li>
+                <li>Goa</li>
+            </ul>
+        </li>
+        <li>United States of America
+            <ul>
+                <li>California</li>
+                <li>Texas
+                    <ol>
+                        <li>Houston</li>
+                        <li>Austin</li>
+                        <li>Dallas</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>England
+            <ul>
+                <li>Oval</li>
+                <li>London</li>
+                <li>Yorkshire</li>
+            </ul>
+        </li>
+    </ul>
+    <hr> <!------------------------------------------------------------------------->
+
+    <h3>Nested Unordered List</h3>
+    <p>GeeksforGeeks courses list:</p>
+    <ul>
+        <li>Data Structures and Algorithms
+            <ul>
+                <li>Array</li>
+                <li>Linked List</li>
+                <li>Stack</li>
+                <li>Queue</li>
+            </ul>
+        </li>
+        <li>Web Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </li>
+        <li>Aptitude</li>
+        <li>Gate</li>
+        <li>Placement</li>
+    </ul>
+    <hr> <!------------------------------------------------------------------------->
+
+    <h3>Daily Meal Plan</h3>
+    <ol>
+        <li>
+            <b>Breakfast</b>
+            <ul>
+                <li><u>Main Course</u>: Pancakes
+                    <ul>
+                        <li>Mapple Syrup</li>
+                        <li>Fresh Berries</li>
+                        <li>Whipped Cream</li>
+                    </ul>
+                </li>
+                <li><u>Side</u>: Fruit Salad</li>
+                <li><u>Dinner</u>: Orange Juice</li>
+            </ul>
+        </li>
+        <li>
+            <b>Lunch</b>
+            <ul>
+                <li>
+                    <u>Main Course</u>: Build-Your-Sandwich
+                    <ol>
+                        <li>Start with two slices of Sourdough bread.</li>
+                        <li>Add a layer of Turkey slices.</li>
+                        <li>Place swiss Cheese on top.</li>
+                        <li>Finish with Lettuce and Tomatoes.</li>
+                    </ol>
+                </li>
+                <li><u>Side</u>: Potato Chips</li>
+                <li><u>Beverage</u>: Iced Tea</li>
+            </ul>
+        </li>
+        <li>
+            <b>Dinner</b>
+            <ul>
+                <li><u>Appetizer</u>: Garlic Bread</li>
+                <li>
+                    <u>Main Course</u>: Spaghetti Bolognese
+                    <ol>
+                        <li>First, place the cooked Spaghetti.</li>
+                        <li>Next, laddle the Bolognese sause over the pasta.</li>
+                        <li>Finally, sprinkle with grated Parmesan cheese.</li>
+                    </ol>
+                </li>
+                <li><u>Desert</u>: Tiramisu</li>
+            </ul>
+        </li>
+    </ol>
+    <hr> <!------------------------------------------------------------------------->
+
+    <h3>Computer Science Learning Path</h3>
+    <ol>
+        <li>
+            <h4>Foundational Concepts</h4>
+            <p>Start with the abosulte basics that underpin everything else.</p>
+        </li>
+        <li>
+            <h4>Core Computer Science</h4>
+            <ul>
+                <li>Algorithms and Data Structures</li>
+                <li>Database Systems</li>
+                <li>
+                    <b>Web Development</b>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>
+                            JavaScript Fundamentals
+                            <ul>
+                                <li>Variables and Data Types</li>
+                                <li>Functions</li>
+                                <li>Conditional Logic (if/else)</li>
+                                <li>Loops (for/while)</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Operating Systems</li>
+            </ul>
+        </li>
+        <li>
+            <h4>Specialization</h4>
+            <p>Choose an advanced field to focus on after mastering the core concepts.</p>
+        </li>
+    </ol>
 
 
 </body>
