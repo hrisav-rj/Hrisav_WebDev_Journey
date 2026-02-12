@@ -13,27 +13,50 @@
     <form action="">
         <!-- input_tag: used to take input from user, 
          attributes: minlength, maxlength, required: specify mandatory input -->
-        <label for="">First Name:</label>
-        <input type="text" name="userFirstName" minlength="3" maxlength="15" required>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="userFirstName" id="first_name" placeholder="Your First Name" minlength="3" maxlength="15" required>
         <br><br>
 
-        <label for="">Last Name:</label>
-        <input type="text" name="userLastName" required>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="userLastName" id="last_name" placeholder="Your Last Name" required>
         <br><br>
 
-        <label for="">Father's Name:</label>
-        <input type="text" name="userFatherName" required>
+        <label for="father_name">Father's Name:</label>
+        <input type="text" name="userFatherName" id="father_name" placeholder="Your Father's Name" required>
         <br><br>
 
-        <label for="">Age:</label>
-        <input type="number" name="userAge" required>
+        <label for="age">Age:</label>
+        <input type="number" name="userAge" id="age" placeholder="Your Age" required>
         <br><br>
 
-        <label for="">Password:</label>
-        <input type="password" name="userPassword" required>
+        <label for="pass">Password:</label>
+        <input type="password" name="userPassword" id="pass" required>
         <br><br>
 
-        
+        <input type="radio" name="userGender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="userGender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="userGender" id="others" value="others">
+        <label for="others">Others</label>
+        <br><br>
+
+        <input type="checkbox" name="subject" id="c++" value="c++">
+        <label for="c++">C++</label>
+        <input type="checkbox" name="subject" id="python" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" name="subject" id="java" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" name="subject" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="subject" id="reactjs" value="reactjs">
+        <label for="reactjs">ReactJS</label>
+        <br><br>
+
+
+
+
+
 
         <input type="submit">
     </form>
