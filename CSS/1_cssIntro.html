@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+
+    <!-- Use of Favicon in HTML doc: to add a logo in the HTML doc -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- 2) Internal CSS: use style_tag inside head_tag of the HTML document -->
+    <style>
+        h3{
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <!-- External CSS: linking an external .css file to the HTML doc -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 3 ways to use CSS in HTML document! -->
+    <!-- 1) Inline CSS: use CSS inside the HTML tag by the help of style attribute -->
+    <h1 style="background-color: aqua;">Gym Website</h1>
+    
+    <!-- 3) External CSS: use CSS with the help of seperate .CSS file and link the file with the help of link_tag -->
+    
+    <!-- <h1>Gym Website</h1> -->
+    <hr>
+    <h3>Exercises:</h3>
+    <ul>
+        <li>Chest</li>
+        <li>Back</li>
+        <li>Shouder</li>
+        <li>Biceps</li>
+        <li>Triceps</li>
+        <li>Legs</li>
+    </ul>
+
+    <h3>Diet:</h3>
+    <ul>
+        Veg:
+        <li>Paneer</li>
+        <li>Soya</li>
+        <li>Tofu</li>
+    </ul>
+    <ul>
+        Non-Veg:
+        <li>Chicken</li>
+        <li>Eggs</li>
+        <li>Mutton</li>
+    </ul>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- Use of all types of CSS(Inline, Internal and External) at the same time -->
+    <!-- What is the priority (precedence) if all form of CSS (Inline, Internal and External) use at the same time? -->
+    <!-- Inline CSS has the highest priority and will execute not matter what type of other CSS use! -->
+    <!-- AFter that, ordering of the code will work if we use Internal and External CSS. For example,
+        if the Inline CSS if written after the External CSS, then Inline CSS will work on the HTML page and vice-versa. -->
+    <!-- That's why it is called Cascading StyleSheet -->
+     
+</body>
+</html>
