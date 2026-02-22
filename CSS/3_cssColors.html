@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Colors</title>
+</head>
+<body>
+    <header>
+        <h1>Colors in CSS</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Pixel:</h3>
+            <article id="pixel">
+                <p>Pixel is the smallest unit of a digital image or display that can be individually controlled or displayed.  It stands for "picture element" and serves as the fundamental building block of digital visuals.</p>
+            </article>
+            <article id="moreOnPixel">
+                <ul>
+                    <li>Each pixel represents a single point of color on a screen, typically composed of red, green, and blue (RGB) subpixels.</li>
+                    <li>The number of pixels in an image or display determines its resolution; more pixels generally mean sharper, more detailed visuals.</li>
+                    <li>Resolution is often expressed as a width-by-height measurement (e.g., 1920 x 1080), and the total pixel count is calculated by multiplying these values.</li>
+                    <li>Pixels per inch (PPI) measures display density, with higher PPI leading to clearer images on screens.</li>
+                    <li>In digital photography, the number of pixels on a camera's image sensor determines the image's resolution and quality—commonly measured in megapixels (MP), where 1 MP equals one million pixels.</li>
+                </ul>
+            </article>
+        </section>
+        <!-- <hr> -->
+        <section>
+            <h3>Ways of using CSS Colors:</h3>
+            <article>
+                <ol>
+                    <li>
+                        <strong>rgb value (0-255, 0-255, 0-255)</strong>
+                        <p>An RGB color value represents <b>RED, GREEN, and BLUE</b> light sources. In CSS, a color can be specified as an RGB value, using this formula: rgb(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255. For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0. To display black, set all color parameters to 0, like this: rgb(0, 0, 0). To display white, set all color parameters to 255, like this: rgb(255, 255, 255).</p>
+                    </li>
+                    <li>
+                        <strong>hsl value (hue, saturation, lightness)</strong>
+                        <p>HSL stands for <b>hue, saturation, and lightness</b>. In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form: hsl(hue, saturation, lightness). Hue is a degree on the color wheel (from 0 to 360): 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value: 0% means a shade of gray, and 100% is the full color. Lightness is also a percentage; 0% is black, 50% is neither light or dark, 100% is white.</p>
+                    </li>
+                    <li>
+                        <strong>hex value (0-f, 0-f, 0-f)</strong>
+                        <p>A hexadecimal color is specified with: <b>#RRGGBB</b>. In CSS, a color can be specified using a hexadecimal value in the form: #rrggbb. Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255). For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00). To display black, set all values to 00, like this: #000000. To display white, set all values to ff, like this: #ffffff.</p>
+                    </li>
+                </ol>
+            </article>
+        </section>
+        <!-- <hr> -->
+        <section>
+            <h3>More on CSS Colors:</h3>
+            <p>Initially, in CSS Level 1, only 16 basic colors were defined, with orange added in CSS Level 2. Web designers found this list too short, and browser vendors added numerous names for colors based on the X11 color names. In SVG 1, then in CSS Colors Level 3, these names got standardized, formally defined, and made uniform (some had different spellings that are now aliases). They are called extended color keywords, X11 colors, or SVG colors.</p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; All right reserved</p>
+    </footer>
+</body>
+</html>
