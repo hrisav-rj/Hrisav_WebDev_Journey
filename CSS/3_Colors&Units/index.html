@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Colors</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS Colors & Units</title>
 </head>
 <body>
     <header>
-        <h1>Colors in CSS</h1>
+        <h1>Colors and Units in CSS</h1>
     </header>
     <main>
         <section>
@@ -16,7 +17,7 @@
                 <p>Pixel is the smallest unit of a digital image or display that can be individually controlled or displayed.  It stands for "picture element" and serves as the fundamental building block of digital visuals.</p>
             </article>
             <article id="moreOnPixel">
-                <ul>
+                <ul">
                     <li>Each pixel represents a single point of color on a screen, typically composed of red, green, and blue (RGB) subpixels.</li>
                     <li>The number of pixels in an image or display determines its resolution; more pixels generally mean sharper, more detailed visuals.</li>
                     <li>Resolution is often expressed as a width-by-height measurement (e.g., 1920 x 1080), and the total pixel count is calculated by multiplying these values.</li>
@@ -49,6 +50,20 @@
         <section>
             <h3>More on CSS Colors:</h3>
             <p>Initially, in CSS Level 1, only 16 basic colors were defined, with orange added in CSS Level 2. Web designers found this list too short, and browser vendors added numerous names for colors based on the X11 color names. In SVG 1, then in CSS Colors Level 3, these names got standardized, formally defined, and made uniform (some had different spellings that are now aliases). They are called extended color keywords, X11 colors, or SVG colors.</p>
+        </section>
+        <section>
+            <h3>Ways of using 'size' in CSS:</h3>
+            <p>
+                <strong>Commonly used Units in CSS:</strong>
+                <ol>
+                    <li>em -> depends on the size of the parent element.</li>
+                    <li>px -> depends on pixel of the device.</li>
+                    <li>rem -> depend of the size of the rool element.</li>
+                    <li>vw -> depends on the size of the <b>viewport-width</b>.</li>
+                    <li>vh -> depends on the size fo the <b>viewport-height</b>.</li>
+                    <li>% -> depends on the size of the direct parent element.</li>
+                </ol>
+            </p>
         </section>
     </main>
     <hr>
