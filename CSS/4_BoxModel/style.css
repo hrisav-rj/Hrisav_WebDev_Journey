@@ -1,0 +1,74 @@
+h1 {
+    background-color: orange;
+    /* padding: 50px; */
+    /* height: used to handle height in content box only,
+    width: used to handle width in the context box only */
+    /* height: 300px;
+       width: 300px; */
+
+    /* Using border in expandable form: */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: green; */
+    
+    /* In simpler form, all the above three border css can be applied as: */
+    /* border: 10px solid green; */
+
+    /* margin: used to manage space beyond border(within the viewport),
+    text-align: Used to center align the text,
+    padding: used to manage space b/w content and border,
+    border-radius: Used to make rounded */
+    
+    /* margin: 50px; */
+    /* text-align: center; */
+    /* padding: 10px 20px 30px 40px; */
+    /* border-radius: 20px; */
+
+    box-sizing: border-box;
+    padding: 50px;
+    border: 10px solid;
+    height: 300px;
+    width: 500px;
+    border-color: black;
+
+}
+
+h2 {
+    box-sizing: content-box;
+    padding: 50px;
+    background-color: aquamarine;
+    border: 10px solid red;
+    height: 100px;
+    width: 400px;
+}
+
+p {
+    /* background-color: Used to change background color,
+    padding: Used to increase space b/w content and border,
+    border: Used to create border,
+    margin: Used to increase/decrease space b/w two elements */
+
+    /* background-color: aquamarine;    */
+    /* padding: 20px;   */
+    /* border: 20px solid red;  */
+    /* margin: 20px;    */
+    color: blue;
+
+}
+
+h3 {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 10px;
+    border: 5px solid;
+    background-color: pink;
+}
+
+/* span {
+    background-color: red;
+} */
+
+/* Universal Selector: */
+/* * {
+    margin: 0%;
+} */
